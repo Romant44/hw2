@@ -5,11 +5,47 @@
 }
     header {
         background:green ;
-        padding: 1rem;
+        padding: 5rem;
+    }
     
+    aside {
+        text-align: left;
+        background: gold;
+        padding: 3rem;
     }
     main {
         background: yellowgreen;
         padding: 1rem;
     }
-   
+   footer
+   {
+    background: rgb(207, 164, 164);
+    padding: 1rem;
+   }
+   .header{
+       }
+       .logo-wrapper{
+        display: inline;
+        float: left;
+        justify-content: space-between;
+       }
+       .aside{
+
+       }
+       .input-wrapper{
+        float: right
+       }
+       .nav{
+        width: 150%;
+        display: flex;
+        justify-content:space-around;
+       }
+       .h1{
+        align-items: center;
+        height:10rem;
+       }
+       .main {
+        align-items: center;
+       display: inline;
+       }
+       
