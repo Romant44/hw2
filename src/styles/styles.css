@@ -9,7 +9,7 @@
     }
     
     aside {
-        text-align: left;
+        text-align: center;
         background: gold;
         padding: 3rem;
     }
@@ -40,6 +40,9 @@
         display: flex;
         justify-content:space-around;
        }
+       a {
+        text-decoration: none;
+       }
        .h1{
         align-items: center;
         height:10rem;
@@ -47,5 +50,11 @@
        .main {
         align-items: center;
        display: inline;
+       }
+       .logo {
+        display: inline-block;
+        font-size: 2rem;
+        transform: rotate(-25deg);
+        cursor:pointer;
        }
        
